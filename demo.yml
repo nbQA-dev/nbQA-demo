@@ -418,7 +418,7 @@ records:
   - delay: 120
     content: "\r\n"
   - delay: 145
-    content: "\U0001F4A5  Mutation detected, will not reformat! Please use the `--nbqa-mutate` flag:\r\n\r\n    nbqa black my_notebook.ipynb --nbqa-mutate\r\n\r\n"
+    content: "Mutation detected, will not reformat! Please use the `--nbqa-mutate` flag:\r\n\r\n    nbqa black my_notebook.ipynb --nbqa-mutate\r\n\r\n"
   - delay: 7
     content: "$ "
   - delay: 1000
