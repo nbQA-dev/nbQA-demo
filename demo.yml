@@ -18,7 +18,7 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 127
+  cols: 164
   
   # Explicitly set the number of rows
   # or use `auto` to take the current
@@ -50,7 +50,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: nbQA demo
+    title: Terminalizer
     style:
       border: 0px black solid
       # boxShadow: none
@@ -111,423 +111,213 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 0
-    content: "$ "
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: q
-  - delay: 120
-    content: a
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: f
-  - delay: 120
-    content: l
-  - delay: 120
-    content: a
-  - delay: 120
-    content: k
-  - delay: 120
-    content: e
-  - delay: 120
-    content: '8'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: m
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: _
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: o
-  - delay: 120
-    content: t
-  - delay: 120
-    content: e
-  - delay: 120
-    content: b
-  - delay: 120
-    content: o
-  - delay: 120
-    content: o
-  - delay: 120
-    content: k
-  - delay: 120
-    content: .
-  - delay: 120
-    content: i
-  - delay: 120
-    content: p
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: "\r\n"
-  - delay: 269
-    content: "/demo-nbqa/my_notebook.ipynb:cell_1:1:1: F401 'pandas as pd' imported but unused\r\n/demo-nbqa/my_notebook.ipynb:cell_1:3:1: F401 'os' imported but unused\r\n"
   - delay: 8
-    content: "$ "
-  - delay: 1000
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 100
     content: 'n'
-  - delay: 120
+  - delay: 99
     content: b
-  - delay: 120
+  - delay: 60
     content: q
-  - delay: 120
+  - delay: 134
     content: a
-  - delay: 120
+  - delay: 156
     content: ' '
-  - delay: 120
-    content: m
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: p
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: m
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: _
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: o
-  - delay: 120
-    content: t
-  - delay: 120
-    content: e
-  - delay: 120
-    content: b
-  - delay: 120
-    content: o
-  - delay: 120
-    content: o
-  - delay: 120
-    content: k
-  - delay: 120
-    content: .
-  - delay: 120
+  - delay: 159
     content: i
-  - delay: 120
-    content: p
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '--'
-  - delay: 120
-    content: i
-  - delay: 120
-    content: g
-  - delay: 120
-    content: 'n'
-  - delay: 120
+  - delay: 131
+    content: s
+  - delay: 94
     content: o
-  - delay: 120
+  - delay: 130
     content: r
-  - delay: 120
+  - delay: 160
+    content: t
+  - delay: 106
+    content: ' '
+  - delay: 100
+    content: 'n'
+  - delay: 96
+    content: o
+  - delay: 44
+    content: t
+  - delay: 75
     content: e
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: m
-  - delay: 120
-    content: i
-  - delay: 120
-    content: s
-  - delay: 120
-    content: s
-  - delay: 120
-    content: i
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: g
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: i
-  - delay: 120
-    content: m
-  - delay: 120
-    content: p
-  - delay: 120
-    content: o
-  - delay: 120
-    content: r
-  - delay: 120
-    content: t
-  - delay: 120
-    content: s
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '#'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: o
-  - delay: 120
-    content: u
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: c
-  - delay: 120
-    content: a
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: p
-  - delay: 120
-    content: a
-  - delay: 120
-    content: s
-  - delay: 120
-    content: s
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: e
-  - delay: 120
-    content: x
-  - delay: 120
-    content: t
-  - delay: 120
-    content: r
-  - delay: 120
-    content: a
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: f
-  - delay: 120
-    content: l
-  - delay: 120
-    content: a
-  - delay: 120
-    content: g
-  - delay: 120
-    content: s
-  - delay: 120
-    content: "\r\n"
-  - delay: 555
-    content: "my_notebook.ipynb:cell_2:5: error: Argument 1 to \"get_idx\" has incompatible type \"str\"; expected \"int\"\r\nFound 1 error in 1 file (checked 1 source file)\r\n"
-  - delay: 8
-    content: "$ "
-  - delay: 1000
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: q
-  - delay: 120
-    content: a
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: b
-  - delay: 120
-    content: l
-  - delay: 120
-    content: a
-  - delay: 120
-    content: c
-  - delay: 120
-    content: k
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: m
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: _
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: o
-  - delay: 120
-    content: t
-  - delay: 120
-    content: e
-  - delay: 120
-    content: b
-  - delay: 120
-    content: o
-  - delay: 120
-    content: o
-  - delay: 120
-    content: k
-  - delay: 120
-    content: .
-  - delay: 120
-    content: i
-  - delay: 120
-    content: p
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '#'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: W
-  - delay: 120
-    content: R
-  - delay: 120
-    content: O
-  - delay: 120
-    content: 'N'
-  - delay: 120
-    content: G
-  - delay: 120
-    content: "\r\n"
-  - delay: 145
-    content: "Mutation detected, will not reformat! Please use the `--nbqa-mutate` flag:\r\n\r\n    nbqa black my_notebook.ipynb --nbqa-mutate\r\n\r\n"
-  - delay: 7
-    content: "$ "
-  - delay: 1000
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: q
-  - delay: 120
-    content: a
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: b
-  - delay: 120
-    content: l
-  - delay: 120
-    content: a
-  - delay: 120
-    content: c
-  - delay: 120
-    content: k
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: m
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: _
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: o
-  - delay: 120
-    content: t
-  - delay: 120
-    content: e
-  - delay: 120
-    content: b
-  - delay: 120
-    content: o
-  - delay: 120
-    content: o
-  - delay: 120
-    content: k
-  - delay: 120
-    content: .
-  - delay: 120
-    content: i
-  - delay: 120
-    content: p
-  - delay: 120
-    content: 'y'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: b
-  - delay: 120
-    content: q
-  - delay: 120
-    content: a
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: m
-  - delay: 120
-    content: u
-  - delay: 120
-    content: t
-  - delay: 120
-    content: a
-  - delay: 120
-    content: t
-  - delay: 120
-    content: e
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '#'
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: C
-  - delay: 120
-    content: O
-  - delay: 120
-    content: RR
-  - delay: 120
-    content: E
-  - delay: 120
-    content: C
-  - delay: 120
-    content: T
-  - delay: 120
-    content: "\r\n"
   - delay: 181
-    content: "reformatted /demo-nbqa/my_notebook.ipynb\r\nAll done! ✨ \U0001F370 ✨\r\n1 file reformatted.\r\n"
-  - delay: 2000
-    content: " "
+    content: b
+  - delay: 84
+    content: o
+  - delay: 110
+    content: o
+  - delay: 131
+    content: k
+  - delay: 100
+    content: .
+  - delay: 100
+    content: i
+  - delay: 130
+    content: p
+  - delay: 83
+    content: 'y'
+  - delay: 176
+    content: 'n'
+  - delay: 121
+    content: b
+  - delay: 119
+    content: ' '
+  - delay: 141
+    content: '-'
+  - delay: 184
+    content: '-'
+  - delay: 100
+    content: 'n'
+  - delay: 82
+    content: b
+  - delay: 64
+    content: q
+  - delay: 109
+    content: a
+  - delay: 120
+    content: '-'
+  - delay: 162
+    content: d
+  - delay: 122
+    content: i
+  - delay: 100
+    content: f
+  - delay: 101
+    content: f
+  - delay: 139
+    content: "\r\n"
+  - delay: 463
+    content: "\e[1mCell 1\e[0m\r\n------\r\n--- notebook.ipynb\r\n+++ notebook.ipynb\r\n@@ -1,2 +1,2 @@\r\n\e[32m+import os\r\n\e[0m import random\r\n\e[31m-import os\r\n\e[0m\r\nFixing /home/marco/demo-nbqa/notebook.ipynb\r\nTo apply these changes use `--nbqa-mutate` instead of `--nbqa-diff`\r\n"
+  - delay: 39
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 888
+    content: nbqa isort notebook.ipynb --nbqa-diff
+  - delay: 500
+    content: "\b\b\b\b"
+  - delay: 164
+    content: "\b\b\b\b\b"
+  - delay: 360
+    content: "\b\b\b\b\b\b\b\b"
+  - delay: 359
+    content: "\b\b\b\b\b\b\b\b\b"
+  - delay: 718
+    content: "\b\b\b\b\b\b\e[6P"
+  - delay: 453
+    content: "\e[1@p"
+  - delay: 86
+    content: "\e[1@y"
+  - delay: 205
+    content: "\e[1@u"
+  - delay: 65
+    content: "\e[1@p"
+  - delay: 154
+    content: "\e[1@g"
+  - delay: 140
+    content: "\e[1@r"
+  - delay: 90
+    content: "\e[1@a"
+  - delay: 80
+    content: "\e[1@d"
+  - delay: 161
+    content: "\e[1@e"
+  - delay: 113
+    content: "\e[1@ "
+  - delay: 155
+    content: "\r\n"
+  - delay: 329
+    content: "\e[1mCell 3\e[0m\r\n------\r\n--- notebook.ipynb\r\n+++ notebook.ipynb\r\n@@ -1 +1 @@\r\n\e[31m-set(x for x in y)\r\n\e[0m\e[32m+{x for x in y}\r\n\e[0m\r\nRewriting notebook.ipynb\r\nTo apply these changes use `--nbqa-mutate` instead of `--nbqa-diff`\r\n"
+  - delay: 38
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 669
+    content: nbqa pyupgrade notebook.ipynb --nbqa-diff
+  - delay: 1400
+    content: "\b\b\b\b\e[K"
+  - delay: 325
+    content: "\b\b\b\b\b\e[K"
+  - delay: 383
+    content: "\b\e[K"
+  - delay: 161
+    content: "\b\e[K"
+  - delay: 612
+    content: "\b\b\b\b\b\b"
+  - delay: 289
+    content: "\b\b\b\b\b\b\b\b\b"
+  - delay: 1191
+    content: "\b\b\b\b\b\b\b\b\b\b\e[10P"
+  - delay: 320
+    content: "\e[1@f"
+  - delay: 96
+    content: "\e[1@l"
+  - delay: 104
+    content: "\e[1@a"
+  - delay: 100
+    content: "\e[1@k"
+  - delay: 124
+    content: "\e[1@e"
+  - delay: 170
+    content: "\e[1@8"
+  - delay: 145
+    content: "\e[1@ "
+  - delay: 95
+    content: "\r\n"
+  - delay: 396
+    content: "notebook.ipynb:cell_1:1:1: F401 'random' imported but unused\r\nnotebook.ipynb:cell_1:2:1: F401 'os' imported but unused\r\nnotebook.ipynb:cell_2:1:26: F821 undefined name 'foo'\r\nnotebook.ipynb:cell_2:1:35: F821 undefined name 'bar'\r\nnotebook.ipynb:cell_3:1:16: F821 undefined name 'y'\r\n"
+  - delay: 39
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 807
+    content: 'nbqa flake8 notebook.ipynb '
+  - delay: 745
+    content: "\b\b\b\b\b\b"
+  - delay: 296
+    content: "\b\b\b\b\b\b\b\b\b"
+  - delay: 721
+    content: "\b\b\b\b\b\b\b\e[7P"
+  - delay: 614
+    content: "\e[1@m"
+  - delay: 222
+    content: "\e[1@y"
+  - delay: 133
+    content: "\e[1@p"
+  - delay: 80
+    content: "\e[1@y"
+  - delay: 101
+    content: "\e[1@ "
+  - delay: 223
+    content: "\r\n"
+  - delay: 433
+    content: "notebook.ipynb:cell_2:1: error: Name 'foo' is not defined\r\nnotebook.ipynb:cell_2:1: error: Name 'bar' is not defined\r\nnotebook.ipynb:cell_3:1: error: Name 'y' is not defined\r\nFound 3 errors in 1 file (checked 1 source file)\r\n"
+  - delay: 37
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 753
+    content: 'nbqa mypy notebook.ipynb '
+  - delay: 486
+    content: "\b\b\b\b\b\b"
+  - delay: 266
+    content: "\b\b\b\b\b\b\b\b\b"
+  - delay: 716
+    content: "\b\b\b\b\b\e[5P"
+  - delay: 405
+    content: "\e[1@p"
+  - delay: 86
+    content: "\e[1@y"
+  - delay: 238
+    content: "\e[1@l"
+  - delay: 85
+    content: "\e[1@i"
+  - delay: 30
+    content: "\e[C\e[1@n\b"
+  - delay: 104
+    content: "\e[1@t"
+  - delay: 122
+    content: "\e[1@ "
+  - delay: 74
+    content: "\r\n"
+  - delay: 715
+    content: "************* Module notebook\r\nnotebook.ipynb:cell_1:0:0: C0114: Missing module docstring (missing-module-docstring)\r\nnotebook.ipynb:cell_2:1:25: E0602: Undefined variable 'foo' (undefined-variable)\r\nnotebook.ipynb:cell_2:1:34: E0602: Undefined variable 'bar' (undefined-variable)\r\nnotebook.ipynb:cell_3:1:15: E0602: Undefined variable 'y' (undefined-variable)\r\nnotebook.ipynb:cell_1:1:0: W0611: Unused import random (unused-import)\r\nnotebook.ipynb:cell_1:2:0: W0611: Unused import os (unused-import)\r\n\r\n-------------------------------------\r\nYour code has been rated at -35.00/10\r\n\r\n"
+  - delay: 37
+    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+  - delay: 1254
+    content: "logout\r\n"
