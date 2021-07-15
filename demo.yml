@@ -18,7 +18,7 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 164
+  cols: 127
   
   # Explicitly set the number of rows
   # or use `auto` to take the current
@@ -50,7 +50,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: Terminalizer
+    title: nbQA demo
     style:
       border: 0px black solid
       # boxShadow: none
@@ -112,7 +112,7 @@ config:
 # Records, feel free to edit them
 records:
   - delay: 8
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 100
     content: 'n'
   - delay: 99
@@ -192,7 +192,7 @@ records:
   - delay: 463
     content: "\e[1mCell 1\e[0m\r\n------\r\n--- notebook.ipynb\r\n+++ notebook.ipynb\r\n@@ -1,2 +1,2 @@\r\n\e[32m+import os\r\n\e[0m import random\r\n\e[31m-import os\r\n\e[0m\r\nFixing /home/marco/demo-nbqa/notebook.ipynb\r\nTo apply these changes use `--nbqa-mutate` instead of `--nbqa-diff`\r\n"
   - delay: 39
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 888
     content: nbqa isort notebook.ipynb --nbqa-diff
   - delay: 500
@@ -230,7 +230,7 @@ records:
   - delay: 329
     content: "\e[1mCell 3\e[0m\r\n------\r\n--- notebook.ipynb\r\n+++ notebook.ipynb\r\n@@ -1 +1 @@\r\n\e[31m-set(x for x in y)\r\n\e[0m\e[32m+{x for x in y}\r\n\e[0m\r\nRewriting notebook.ipynb\r\nTo apply these changes use `--nbqa-mutate` instead of `--nbqa-diff`\r\n"
   - delay: 38
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 669
     content: nbqa pyupgrade notebook.ipynb --nbqa-diff
   - delay: 1400
@@ -266,7 +266,7 @@ records:
   - delay: 396
     content: "notebook.ipynb:cell_1:1:1: F401 'random' imported but unused\r\nnotebook.ipynb:cell_1:2:1: F401 'os' imported but unused\r\nnotebook.ipynb:cell_2:1:26: F821 undefined name 'foo'\r\nnotebook.ipynb:cell_2:1:35: F821 undefined name 'bar'\r\nnotebook.ipynb:cell_3:1:16: F821 undefined name 'y'\r\n"
   - delay: 39
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 807
     content: 'nbqa flake8 notebook.ipynb '
   - delay: 745
@@ -290,7 +290,7 @@ records:
   - delay: 433
     content: "notebook.ipynb:cell_2:1: error: Name 'foo' is not defined\r\nnotebook.ipynb:cell_2:1: error: Name 'bar' is not defined\r\nnotebook.ipynb:cell_3:1: error: Name 'y' is not defined\r\nFound 3 errors in 1 file (checked 1 source file)\r\n"
   - delay: 37
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 753
     content: 'nbqa mypy notebook.ipynb '
   - delay: 486
@@ -318,6 +318,6 @@ records:
   - delay: 715
     content: "************* Module notebook\r\nnotebook.ipynb:cell_1:0:0: C0114: Missing module docstring (missing-module-docstring)\r\nnotebook.ipynb:cell_2:1:25: E0602: Undefined variable 'foo' (undefined-variable)\r\nnotebook.ipynb:cell_2:1:34: E0602: Undefined variable 'bar' (undefined-variable)\r\nnotebook.ipynb:cell_3:1:15: E0602: Undefined variable 'y' (undefined-variable)\r\nnotebook.ipynb:cell_1:1:0: W0611: Unused import random (unused-import)\r\nnotebook.ipynb:cell_1:2:0: W0611: Unused import os (unused-import)\r\n\r\n-------------------------------------\r\nYour code has been rated at -35.00/10\r\n\r\n"
   - delay: 37
-    content: "\e]0;marco@marco-Predator-PH315-52:~/demo-nbqa\e\\\e]7;file://marco-Predator-PH315-52/home/marco/demo-nbqa\e\\(venv38) \e]0;marco@marco-Predator-PH315-52: ~/demo-nbqa\a\e[01;32mmarco@marco-Predator-PH315-52\e[00m:\e[01;34m~/demo-nbqa\e[00m$ "
+    content: "$ "
   - delay: 1254
     content: "logout\r\n"
